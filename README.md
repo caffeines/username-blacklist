@@ -38,7 +38,7 @@ Please make sure to update tests as appropriate.
 This project is released under the MPL2.0 License. See the bundled LICENSE file for details.
 
 ## Credits
-- [github.com/marteinn/The-Big-Username-Blacklist]("https://github.com/marteinn/The-Big-Username-Blacklist")
+- [github.com/marteinn/The-Big-Username-Blacklist](https://github.com/marteinn/The-Big-Username-Blacklist)
 
 
 
