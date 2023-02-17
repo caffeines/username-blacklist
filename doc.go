@@ -1,5 +1,5 @@
 // Date: 2018-01-01 15:00:00 +0000 UTC
-// License: MIT
+// License: MPL-2.0
 // Author: caffeines<sadat.talks@gmail.com>
 // Description: Blacklisted usernames that you might not want to grant as a username.
 
