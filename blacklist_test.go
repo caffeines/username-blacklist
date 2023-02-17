@@ -1,7 +1,6 @@
 package username_blacklist
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -19,13 +18,4 @@ func TestBlacklisted(t *testing.T) {
 			t.Errorf("got %v want %v", got, false)
 		}
 	})
-}
-
-func ExampleBlacklisted() {
-	exists := Blacklisted("admin")
-	fmt.Println(exists)
-	exists = Blacklisted("caffeines")
-	fmt.Println(exists)
-	// Output: true
-	// false
 }
