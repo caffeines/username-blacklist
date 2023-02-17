@@ -1,11 +1,14 @@
-package username_blacklist
+package username_blacklist_test
 
-import "fmt"
+import (
+	"fmt"
+	username_blacklist "github.com/caffeines/username-blacklist"
+)
 
 func Example() {
-	exists := Blacklisted("admin")
+	exists := username_blacklist.Blacklisted("admin")
 	fmt.Println(exists)
-	exists = Blacklisted("caffeines")
+	exists = username_blacklist.Blacklisted("caffeines")
 	fmt.Println(exists)
 	// Output: true
 	// false
